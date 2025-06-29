@@ -1,16 +1,19 @@
-# flappy_bird
+#  Flappy Bird Clone (Flutter)
 
-A new Flutter project.
+A simple, customizable **Flappy Bird** clone built with **Flutter**. This project demonstrates core game development concepts such as physics-based motion, dynamic barrier generation, and real-time collision detection—all within Flutter's widget system.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Smooth bird jump with gravity simulation
+- Moving barriers with randomized heights
+- Score and high score tracking
+- Collision detection with obstacles and screen boundaries
+- Tap to start and replay support
+- Modular design with separate widgets for bird and barriers
 
-A few resources to get you started if this is your first Flutter project:
+## 🧠 Game Mechanics
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Physics**: Bird jump follows a realistic curve: `y = -4.9t² + 2.5t`
+- **Scoring**: Score increases when the bird passes a barrier’s center
+- **Barriers**: Reset with randomized gap heights to create variety
+- **Game Over**: Triggered by collisions or out-of-bound movement
