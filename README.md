@@ -1,4 +1,4 @@
-#  Flappy Bird Clone (Flutter)
+Flappy Bird Clone (Flutter)
 
 A simple, customizable **Flappy Bird** clone built with **Flutter**. This project demonstrates core game development concepts such as physics-based motion, dynamic barrier generation, and real-time collision detection—all within Flutter's widget system.
 
